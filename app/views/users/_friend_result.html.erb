@@ -1,0 +1,15 @@
+<div class="results-block">
+	<%= render 'layouts/messages' %>	
+</div>
+
+
+<% if @friend %>
+	<div class="card card-header results-block">
+		<strong>Emali: </strong> <%= @friend %>
+		<strong>Name: </strong> <%= @friend %>
+		<strong>Stocks: </strong> <%= @friend %>
+		<%= link_to 'Follow?', '#', 
+								class: "btn bsn-xs btn-primary", method: :post %>
+	</div>
+<% end %>
+
