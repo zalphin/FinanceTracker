@@ -1,1 +1,3 @@
-This is a finance tracking app from the Udemy course "The Complete Ruby on Rails Developer Course"
+Assignment:
+
+Add First name and last name fields to user registration
